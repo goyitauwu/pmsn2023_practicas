@@ -1,0 +1,45 @@
+name: pmsn20232
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0-215.0.dev <4.0.0'
+
+dependencies:
+  flutter_slider_drawer: ^2.1.3
+  day_night_switcher: ^0.2.0+1
+  shared_preferences: ^2.2.1
+  carousel_slider: ^4.2.1
+  sqflite: ^2.2.8+3
+  path_provider: ^2.1.1
+  lottie: ^2.2.0
+  concentric_transition: ^1.0.3
+  http: ^1.1.0
+  table_calendar: ^3.0.9
+  provider: ^6.0.5
+  social_login_buttons: ^1.0.7
+  youtube_player_flutter: ^8.1.2
+  flutter_rating_bar: ^4.0.1
+  firebase_core: ^2.21.0
+  firebase_auth: ^4.12.1
+  cloud_firestore: ^4.12.2
+  intl: ^0.18.0
+  location: ^5.0.3
+  google_maps_flutter: ^2.5.0
+  curved_navigation_bar: ^1.0.3
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/animations/.
+    - animation/.
